@@ -8,6 +8,7 @@
     ........................................................................
 
     01. Non-Static Homepage
+    02. "Disciplinas" Page
 
 */
 
@@ -126,6 +127,10 @@ body.home .widget-area .widget .wp-image-74{
 
 body.home #colophon .athena-footer > div{
 	display:none;
+}
+
+body.home .site-info .athena-copyright{
+	font-family:'Alef', sans-serif;
 }
 
 @media (min-width:635px){
@@ -664,4 +669,23 @@ body.home .widget-area .widget .wp-image-74{
 	left:156px;
 	}
 
+}
+
+
+
+/*-----------------------------------------------*/
+/*  "Disciplinas" Page                           */
+/*-----------------------------------------------*/
+body.page-id-12 .hentry .entry-header h1{
+	color:#000000;
+}
+
+body.page-id-12 .elementor-widget-heading h2{
+	color:#000000 !important;
+}
+
+body.page-id-12 .elementor-widget-text-editor .elementor-text-editor p{
+	color:#000000;
+	font-size:15px;
+	text-align:justify;
 }
